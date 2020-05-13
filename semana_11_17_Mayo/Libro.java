@@ -28,13 +28,13 @@ public class Libro extends Publicacion implements Prestable {
 
     @Override
     public boolean devuelve() {
-        prestado = false;
+        prestado = false; //Al devolver el libro ya no estaria prestado
         return prestado;
     }
 
     @Override
     public boolean estaPrestado() {
-        return prestado;
+        return prestado; //Devuelve el estado del libro (si está prestado o no)
     }
 
     @Override

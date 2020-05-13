@@ -21,7 +21,7 @@ public class Main {
         System.out.println(r1.getNumero()); //Motramos el numero de la primera revista
         System.out.println(r2.toString()); //Mostramos la informacion de la segunda revista
 
-        System.out.println(l1.estaPrestado()); //Comprobamos si esta prestado
+        System.out.println("¿"+l1.getTitulo()+" está prestado? --> "+l1.estaPrestado()); //Comprobamos si esta prestado
 
     }
 }
